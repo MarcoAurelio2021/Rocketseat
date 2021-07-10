@@ -1,0 +1,76 @@
+# scope
+
+<p>* Determina a visibilidade de alguma variável no JS </p> 
+
+<p>* Block statement "statement significa declaração" 
+</p> 
+
+<p>
+    <br> para criar um scope usa uma {
+   
+       // aqui dentro é um bloco e posso colocar qualquer código} <br>
+   
+   <br> O bloco também criará um novo scope, chamamos de ` block-scoped > ` 
+    
+   <p>// hoisting " significa elevação"</p>
+
+   </p>
+
+  <script>
+
+   // console.log('> existe x antes do bloco? ', x)
+
+   // {
+   //    var x = 0
+   // }
+
+   // console.log('> existe x depois do bloco? ', x)
+
+  </script>
+    
+    # scope let e const
+    
+    <p>// const e let são locais e só funcionam dentro do scope de onde foi criada</p>
+    
+    
+    <script>
+
+   // O JS tem um scope padrão.
+
+  // let y = 1111
+    // console.log('> existe y antes do bloco?', y)
+
+  //  {
+      
+  //    let y = 0      // verificar se estou colocando as chaves.
+   //   console.log('> existe y?', y)
+  //  }
+    
+
+  //   console.log('> existe y depois do bloco?', y)
+
+    </script>
+    
+    # const 
+    
+    <script>
+  
+  //    let y = 2;
+      
+  // {
+  //  y = 20  // aqui ele está puxando o y que está fora do scope, e atribuindo um novo valor; pois eu não coloquei uma chave reservada para o y dentro do scope.
+  //  console.log('> existe y?', y)
+  // }
+
+// se eu fizer a mesma coisa usando a variavel const, vai dar erro; pois a consta não pode ser alterada 
+ 
+const y = 2
+  
+  {
+    y = 20
+    console.log('> existe y?', y) // o y dentro do scope não pode atribuir um novo valor para o y fora do scope; pois ela é uma variável do tipo const 
+    // para que dê certo é preciso criar uma nova const em scope diferentes
+  }
+    
+
+    </script>
