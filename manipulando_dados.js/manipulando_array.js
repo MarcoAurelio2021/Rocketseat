@@ -15,3 +15,4 @@ techs.pop()
 console.log(techs)
 
 // teste envio para git hub
+// troquei meu email no terminal
