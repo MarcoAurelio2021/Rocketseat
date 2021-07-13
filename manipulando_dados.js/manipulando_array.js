@@ -13,3 +13,5 @@ techs.pop()
 // remover 1 ou mais itens em qualquer posição da array
 // encontrar a posição de um elemento na array
 console.log(techs)
+
+// teste envio para git hub
