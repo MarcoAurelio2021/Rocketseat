@@ -8,8 +8,19 @@ console.log(5 / 5)
 console.log(5 + 5)
 // subtração
 console.log(5 - 5)
-// resto da divisão
-console.log()
-// incremento
+// resto da divisão %
+let remainder
+remainder = 11 % 9
+console.log(remainder)
+// incremento ++
+// let increment = 0
+// increment++
+// console(increment)
 // decremento
-// exponencial
+let decrement = 0
+decrement--
+decrement--
+// console.log(--decrement)
+
+// exponencial **
+console.log(3 ** 3)
