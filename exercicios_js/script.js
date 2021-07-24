@@ -1,51 +1,36 @@
-/* Transforma notas escolares
+function getScore(score) {
+  let scoreA = score >= 90 && score <= 100
+  let scoreB = score >= 80 && score <= 89
+  let scoreC = score >= 70 && score <= 79
+  let scoreD = score >= 60 && score <= 69
+  let scoreF = score < 60 && score >= 0
 
-crie um algoritmo que transforme as notas do sistema numérico para sistema de notas em caracteres A, B, C 
-*/
-/*
-let note = 0
+  let scoreFinal
 
-if (note >= 90) {
-  console.log('Nota A')
-} else if (note < 90 && note >= 80) {
-  console.log('Nota B')
-} else if (note < 80 && note >= 70) {
-  console.log('Nota C')
-} else if (note < 70 && note >= 60) {
-  console.log('Nota D')
-} else if (note < 60 && note >= 0) {
-  console.log('Nota F')
-} else {
-  console.log('Nota inválida')
+  if (scoreA) {
+    scoreFinal = 'A'
+  } else if (scoreB) {
+    scoreFinal = 'B'
+  } else if (scoreC) {
+    scoreFinal = 'C'
+  } else if (scoreD) {
+    scoreFinal = 'D'
+  } else if (scoreF) {
+    scoreFinal = 'F'
+  } else {
+    scoreFinal = 'Nota inválida'
+  }
+
+  return scoreFinal
 }
-/*
 
-
-/* ======================================================== */
-
-// Transforma notas escolares
-
-// crie um algoritmo que transforme as notas do sistema numérico para sistema de notas em caracteres A, B, C
-
-let score = 94
-let scoreA = score >= 90 && score < 100
-let scoreB = score >= 80 && score <= 89
-let scoreC = score >= 70 && score <= 79
-let scoreD = score >= 60 && score <= 69
-let scoreF = score < 60 && score >= 0
-
-let scoreFinal = 'Nota inválida'
-
-if (score >= 90 && score <= 100) {
-  console.log('A')
-} else if (score >= 80 && score <= 89) {
-  console.log('B')
-} else if (score >= 70 && score <= 79) {
-  console.log('C')
-} else if (score >= 60 && score <= 69) {
-  console.log('D')
-} else if (score < 60 && score >= 0) {
-  console.log('F')
-} else {
-  console.log('Nota inválida')
-}
+console.log(getScore(101))
+console.log(getScore(-3))
+console.log(getScore(92))
+console.log(getScore(84))
+console.log(getScore(73))
+console.log(getScore(68))
+console.log(getScore(35))
+console.log(getScore(84))
+console.log(getScore(62))
+console.log(getScore(111))
