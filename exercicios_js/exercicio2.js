@@ -16,6 +16,7 @@ function sum(array) {
   for (let value of array) {
     total += value
   }
+  return total
 }
 
 function calculo() {
