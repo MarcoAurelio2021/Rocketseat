@@ -10,26 +10,40 @@
     <!--
 
   <tr></tr>  para escrever uma linha
-  <th></th>  para escrever o cabeçalho... nome idade profissão etc
-  <td></td> para fazer a descrição das linhas
-
+  <th></th>  para escrever o cabeçalho... nome idade profissão etc. "colunas"
+  <td></td> para fazer a descrição das linhas.
+  <caption></caption\>  para descrever o que minha tabela está fazendo.
 -->
 
     <table>
-      <tr>
-        <th>nome</th>
-        <th>idade</th>
-      </tr>
+      <caption>
+        Pessoas por idade
+      </caption>
 
-      <tr>
-        <th>Marco</th>
-        <td>23</td>
-      </tr>
+      <thead>
+        <tr>
+          <th>nome</th>
+          <th>idade</th>
+        </tr>
+      </thead>
 
-      <tr>
-        <th>Maria</th>
-        <td>26</td>
-      </tr>
+      <tbody>
+        <tr>
+          <th>Marco</th>
+          <td>23</td>
+        </tr>
+
+        <tr>
+          <th>Maria</th>
+          <td>26</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>total:</td>
+          <td>2 pessoas</td>
+        </tr>
+      </tfoot>
     </table>
   </body>
 </html>
