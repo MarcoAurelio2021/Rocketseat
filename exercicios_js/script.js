@@ -44,20 +44,17 @@ console.log(y) */
 // console.log(total)
 
 
+const sum = function(number1, number2) {
 
-var vendas = "Toyota";
-
-function tipoCarro(nome) {
-  if (nome == "Fiat") {
-    return ` ${nome} está disponivel.`
-  } else {
-    return "Desculpa, não vendemos" + " o" + " carro" + " que " + "procura." + " Veja outras opções." 
-}
+  let total = number1 + number2
+  return total
+  
 }
 
+let number3 = 10
+let number4 = 11
 
 
- 
-console.log(tipoCarro('Fiat'))
-
+sum(number3, number4)
+console.log('number1 + number2')
  
