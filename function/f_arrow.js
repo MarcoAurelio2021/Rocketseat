@@ -5,3 +5,5 @@ const sayMyname = name => {
 }
 
 sayMyname('Marco Aurélio')
+
+// é o jeito mais curto de escrever uma função.

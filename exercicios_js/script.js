@@ -40,13 +40,13 @@ console.log(y) */
 // };
 
 // var x = square(4)
+  
 
 // console.log(total)
 
-
 const sum = function(number1, number2) {
-
-  let total = number1 + number2
+  
+  total = number1 + number2
   return total
   
 }
@@ -55,6 +55,5 @@ let number3 = 10
 let number4 = 11
 
 
-sum(number3, number4)
-console.log('number1 + number2')
- 
+sum(number3, number4);
+console.log(total)
