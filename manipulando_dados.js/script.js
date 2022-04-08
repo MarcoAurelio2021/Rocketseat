@@ -1,15 +1,14 @@
-// Manipulando arrays
+function Calc (number4, number6) {
+  
+  return  number1 + number2 
+  
+  console.log()
 
-let techs = ['html', 'css', 'js']
+  
+};
 
-// adicionar um item
-techs.push('nodejs')
-// adicionar no começo
-techs.unshift('sql')
-// remover do fim
-techs.pop()
-// remover do começo
-// pegar somente alguns elementos da array
-// remover 1 ou mais itens em qualquer posição da array
-// encontrar a posição de um elemento na array
-console.log(techs)
+let number1 = 35
+
+let number2= 15
+
+Calc(number1, number2)
