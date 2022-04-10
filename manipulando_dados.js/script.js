@@ -1,9 +1,11 @@
-function Calc (number4, number6) {
-  
-  return  number1 + number2 
-  
-  console.log()
+function Calc (number4) {
 
+let total = number4 / number4 
+
+ console.log(number4)
+ console.log(total)
+  
+  return  
   
 };
 
@@ -11,4 +13,4 @@ let number1 = 35
 
 let number2= 15
 
-Calc(number1, number2)
+Calc( number2)
