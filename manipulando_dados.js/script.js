@@ -1,16 +1,19 @@
-function Calc (number4) {
+/* 
+ Manipulando Strings e Números
 
-let total = number4 / number4 
+ Transforma String em Número e Número em String
 
- console.log(number4)
- console.log(total)
-  
-  return  
-  
-};
+*/
 
-let number1 = 35
+let string = '123'
 
-let number2= 15
+console.log(Number(string))
 
-Calc( number2)
+let number = 321
+
+console.log(String(number))
+
+let numberInteiro = 4355.666666
+console.log(numberInteiro.toFixed(2).replace(".", ","))
+
+// replace() vai fazer substituir um caracter ou numero pelo valor que eu quero.
