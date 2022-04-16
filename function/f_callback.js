@@ -9,3 +9,4 @@ function sayMyname(name) {
 sayMyname(() => {
   console.log('estou em uma callback')
 })
+
