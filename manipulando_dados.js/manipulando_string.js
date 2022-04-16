@@ -1,13 +1,13 @@
 /* 
  Manipulando Strings e Números
 
- Transforma String em Número e Número em String
 
 */
 
 let string = '123'
 
-console.log(Number(string))
+console.log(Number(string)) //  Transforma String em Número e Número em String
+
 
 let number = 321
 
